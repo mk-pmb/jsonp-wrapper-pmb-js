@@ -15,6 +15,8 @@ eq(jsonWrap('myApp.render'), ['myApp.render(', ');']);
 eq(jsonWrap('myApp.recv:motd:1234'), ["myApp.recv('motd','1234',", ');']);
 eq(jsonWrap('console.debug:reply'), ["console.debug('reply',", ');']);
 
+eq(jsonWrap('recv\n\nevil'), ['', '']);
+
 
 
 
