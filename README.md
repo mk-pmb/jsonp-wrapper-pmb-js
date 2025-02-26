@@ -17,6 +17,7 @@ Cheat sheet
 /some/api -> {"foo":"bar"}
 /some/api?jsonp=myApp.render -> myApp.render({"foo":"bar"});
 /some/api?jsonp=myApp.recv:motd:1234 -> myApp.recv('motd','123',{"foo":"bar"});
+/some/api?jsonp=console.debug:reply -> console.debug('reply',{"foo":"bar"});
 ```
 
 
