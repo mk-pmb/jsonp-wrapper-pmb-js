@@ -1,5 +1,5 @@
 { "name": "jsonp-wrapper-pmb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A suggestion and utility for easily wrapping your API JSON reply in JSONP packaging.",
   "keywords": [
     "api",
