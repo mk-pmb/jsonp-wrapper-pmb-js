@@ -45,7 +45,7 @@ and if instead you use streams, you can print each component individually.
   if the request doesn't even want JSONP.
 * Valid characters in `cbName` are a subset of the Unicode block
   "Basic Latin", specifically: Letters (`A-Za-z`), digits (`0-9`),
-  low line (aka underscore; `_`) full stop (`.`), and colon (`:`).
+  low line (aka underscore; `_`), full stop (`.`), and colon (`:`).
 * The colon character divides the string into callback name and arguments.
 * An empty callback name is invalid.
 * Arguments, if any, will be single-quoted and inserted as early arguments
