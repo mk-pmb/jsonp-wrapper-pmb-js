@@ -26,11 +26,11 @@
 
   "dependencies": {},
   "devDependencies": {
-    "equal-pmb": "^0.1.28",
-    "eslint-config-nodejs-pmb": "^0.3.6",
+    "equal-pmb": "^0.1.30",
+    "eslint-config-nodejs-pmb": "^0.3.14",
     "eslint-plugin-json-light-pmb": "^1.0.7",
-    "eslint-plugin-n": "^17.10.2",
-    "eslint-pretty-pmb": "^1.0.5",
+    "eslint-plugin-n": "^17.16.2",
+    "eslint-pretty-pmb": "^1.0.7",
     "nodemjs": "^0.1.15"
   },
 
