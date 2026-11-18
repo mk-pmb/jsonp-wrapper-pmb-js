@@ -78,7 +78,7 @@ module imported in the website.
 
 However, some of the limitations on the acceptable characters for `cbName`
 are meant to help avoid code injection even if the effective callback name
-really is `eval`, because it blocks some usual command-triggering techniques:
+really is `eval`, because it blocks some common command-triggering techniques:
 
 * Function call via parentheses `()`.
 * Stowing away a side effect in a ternary
