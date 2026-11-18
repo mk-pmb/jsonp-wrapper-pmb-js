@@ -56,7 +56,7 @@ and if instead you use streams, you can print each component individually.
   * Example use case: Use the same receiver function for multiple data topics.
   * Security: Due to the harsh restriction on valid characters, we can blindly
     put single quotes and don't have to worry about complex quoting rules.
-* Validation does _not_ check whether the resulting effective callback name,
+* Validation does _not_ check whether the resulting effective callback name
   is valid JavaScript.
 
 
@@ -65,7 +65,7 @@ Security
 --------
 
 The callback name validation is meant to protect your webserver from
-shenanigans like control characters, zero bytes, HTTP protcol injections,
+shenanigans like control characters, zero bytes, HTTP protocol injections,
 or Unicode obfuscation tricks.
 
 However, JSONP always has a residual risk of client-side code injection,
