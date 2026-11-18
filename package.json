@@ -1,5 +1,5 @@
 { "name": "jsonp-wrapper-pmb",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A suggestion and utility for easily wrapping your API JSON reply in JSONP packaging.",
   "keywords": [
     "api",
@@ -20,7 +20,7 @@
   "private": false, "license": "ISC",
 
   "main": "jsonpwrap.js",
-  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "scripts": { "test": "elp && nodejs test/all.mjs" },
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 
@@ -30,10 +30,9 @@
     "eslint-config-nodejs-pmb": "^0.3.14",
     "eslint-plugin-json-light-pmb": "^1.0.7",
     "eslint-plugin-n": "^17.16.2",
-    "eslint-pretty-pmb": "^1.0.7",
-    "nodemjs": "^0.1.15"
+    "eslint-pretty-pmb": "^1.0.7"
   },
 
 
-  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+  "engines": { "npm": ">=7.0.0", "node": ">=24.0.0" }
 }
