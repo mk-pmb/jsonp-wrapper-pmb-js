@@ -31,7 +31,7 @@ This module exports one function:
 
 `cbName` is the untrusted config string that describes the JSONP packaging
 to be used. It's usually a client-provided query argument, potentially
-controlled by an attacker, and thus it is jsonpWrapper's responsibility
+controlled by an attacker, and thus it is `jsonpWrap`'s responsibility
 to handle it safely and securely.
 
 Returns an array of two (potentially empty) strings:
